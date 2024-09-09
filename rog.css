@@ -1,0 +1,381 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: robotocondensed,roboto,sans-serif;
+}
+header{
+    width: 100%;
+    height: 90px;
+    color: aliceblue;
+    
+}
+
+.header1{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between
+   
+    
+}
+
+.header2{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(204, 0, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    margin-top:15px ;
+    padding-left: 100px;
+    
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    margin-top:15px ;
+    gap: 25px;
+    font-size: 15px;
+    width: 900px;
+    padding-left: 250px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    margin-top:15px ;
+    gap: 15px;
+    
+}
+
+.rog-icon{
+    position: absolute;
+    top: 0px;
+    left: 90px;
+}
+.rog-icon:hover{
+    cursor: pointer;
+}
+.asus-icon{
+    position: absolute;
+    top: 5px;
+    right: 320px;
+}
+.asus-icon:hover{
+    cursor: pointer;
+}
+
+.shop:hover,.product:hover,.innovation:hover,.download:hover,
+.community:hover,.hot:hover,.pba:hover,.support:hover{
+    color: rgb(231, 29, 43);
+    transition: 0.1s;
+    cursor: pointer;
+    
+}
+
+.search-icon,.cart,.profile{
+    width: 25px;
+    cursor: pointer;
+    
+}
+
+.cart{
+    margin-right: 200px;
+}
+
+
+.suggestion{
+   font-size: 14px;
+}
+
+.our-products{
+    width: 100%;
+    height: 500px;
+    margin-top: 90px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 46px;
+}
+.techs{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap: 80px;
+}
+.tech1{
+    display: flex;
+    flex-direction: column;
+    width:230px;
+    
+}
+.scale-img{
+    transition: 0.3s;
+}
+.scale-img:hover{
+    transform: scale(1.07);
+}
+
+
+.lapy{
+    text-align: center;
+    margin-top: 24px;
+    font-size: 19px;
+}
+
+.big-pic{
+    width: 100%;
+}
+
+
+
+
+ 
+/*recent release */
+
+
+.recent-releases{
+    width: 100%;
+    height: 1294px;
+    background-image: url("images of rog/rog wall.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    background-size: cover;
+    position: relative;
+   
+    
+}
+
+.pics-div1{
+    height: 549px;
+    width: 1520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+   
+    
+   
+}
+
+.item1{
+   object-fit: contain;
+   height: 130%;
+   transition: 0.4s;
+   transform: translatex(-200px);
+ 
+    
+}
+
+.item2{
+    object-fit: contain;
+    height: 130%;
+    transition: 0.4s;
+   
+  
+     
+ }
+
+ .item3{
+    object-fit: contain;
+    height: 130%;
+    transition: 0.4s;
+    transform: translatex(-200px);
+  
+     
+ }
+
+
+
+
+
+.photos{
+    height: 550px;
+    overflow: hidden;
+}
+
+.item1:hover{
+    transform: scale(1.04);
+}
+
+.item3:hover{
+    transform: translatex(-400px);
+    
+}
+
+.item2:hover{
+    transform: scale(1.04);
+
+}
+
+
+
+.pics-div2{
+    height: 500px;
+    width: 1520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 25px;
+    padding-top: 25px;
+   
+   
+    
+   
+}
+
+.photos2{
+    width: 747.5px;
+    overflow: hidden;
+    
+    
+
+}
+
+.item4{
+    object-fit: contain;
+    height: 130%;
+    transition: 0.4s;
+    transform: translatex(-300px);
+  
+     
+ }
+
+ .item4:hover{
+    transform: translatex(-400px);
+
+ }
+
+ .item5:hover{
+    transform: translatex(-200px);
+
+ }
+
+ .item5{
+    object-fit: contain;
+    height: 130%;
+    transition: 0.4s;
+    transform: translatex(-300px);
+  
+     
+ }
+
+/* long-div */
+
+.long-div{
+    margin-top: 90px;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.para{
+    width: 600px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    top: 170px;
+    right: 160px;
+    font-size: 18px;
+   
+
+}
+
+.para-head{
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.recent{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: -17px;
+}
+
+.learn{
+    color: rgb(255, 81, 0);
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.learn:hover{
+    color: rgb(226, 105, 49);
+    cursor: pointer;
+
+}
+
+.long-img{
+    width: 100%;
+}
+
+/* footer */
+
+
+footer{
+    height: 500px;
+    background-color: blue;
+    margin-top: 586px;
+    background-image: url("images of rog/footer-image.jpeg");
+    color: rgb(158, 149, 149);
+    display: flex;
+    justify-content: center;
+}
+.container{
+
+    height: 100px;
+    width: 1500px;
+    margin-top: 50px;
+}
+
+.foot1,.foot2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+.foot2{
+    font-size: 13px;
+    margin-top: 20px;
+
+
+}
+
+.facebook{
+    width: 20px;
+
+}
+
+.access{
+    width: 18px;
+    margin-top: -2px;
+
+}
+
+.twitter{
+    width: 16px;
+    margin-top: 2px;
+
+}
+
+.help:hover,.home:hover,.about:hover,.us:hover,.privacy:hover,.terms:hover{
+    color: red;
+}
